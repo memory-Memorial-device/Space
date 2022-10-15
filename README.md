@@ -24,4 +24,6 @@ Desktop: intel i7, ram 16GB, graphic card GTX 1060 이상
 
 Created by xyzuvwqpq & Rimeo Lee
 
+https://xyzuvwopq.azurewebsites.net
+
 *본 프로젝트는 한국문화예술위원회의 지원을 받아 제작된 예술작품의 일환임을 알려드립니다.
