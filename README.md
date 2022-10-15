@@ -14,5 +14,7 @@
 
 <img src = "https://user-images.githubusercontent.com/42710623/195999298-564f9655-452c-4049-9d5c-483b8628b026.png"/>
 
+
 Created by xyzuvwqpq & Rimeo Lee
+
 *본 프로젝트는 한국문화예술위원회의 지원을 받아 제작된 예술작품의 일환임을 알려드립니다.
