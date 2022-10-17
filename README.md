@@ -15,6 +15,9 @@
 <img src = "https://user-images.githubusercontent.com/42710623/195999298-564f9655-452c-4049-9d5c-483b8628b026.png"/>
 
 
+원완할 진행을 위해 윈도우 PC를 권장드립니다. 맥에서도 정상작동 하지만 색표현이 온전히 안될 수 있습니다.
+
+
 지원 모델
 
 Apple  : Apple Macbook Pro Serise(15inch or 16inch) 2017년 버전 이후
