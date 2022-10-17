@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18025592, g: 0.22567038, b: 0.3068796, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1134,6 +1134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1568318709}
   - component: {fileID: 1568318710}
+  - component: {fileID: 1568318711}
   m_Layer: 0
   m_Name: NDI
   m_TagString: Untagged
@@ -1163,7 +1164,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568318708}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2d98e5bfcdff4847ad69efa861a8e7f, type: 3}
   m_Name: 
@@ -1174,6 +1175,24 @@ MonoBehaviour:
   _sourceCamera: {fileID: 0}
   _sourceTexture: {fileID: 8400000, guid: 4981d250d45f54e24b4e223b043a84bd, type: 2}
   _resources: {fileID: 11400000, guid: 69304b86950074db7ba8caba75214004, type: 2}
+--- !u!114 &1568318711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568318708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spoutName: IPadSender
+  _keepAlpha: 0
+  _captureMethod: 2
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 8400000, guid: 4981d250d45f54e24b4e223b043a84bd, type: 2}
+  _resources: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}
 --- !u!1 &1754513547
 GameObject:
   m_ObjectHideFlags: 0

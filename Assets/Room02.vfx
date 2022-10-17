@@ -19,7 +19,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -90
     y: -535
-    width: 2487
+    width: 2486
     height: 2084
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -197,7 +197,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 50000
+      m_SerializableObject: 100000
     m_Space: 2147483647
   m_Property:
     name: Count
@@ -1498,7 +1498,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.3
+      m_SerializableObject: 0.15
     m_Space: 2147483647
   m_Property:
     name: Size
@@ -1924,7 +1924,7 @@ MonoBehaviour:
       slotIndex: 0
   m_OutputFlowSlot:
   - link:
-    - context: {fileID: 8926484042661614670}
+    - context: {fileID: 8926484042661614662}
       slotIndex: 0
   integration: 0
   angularIntegration: 0
@@ -2018,9 +2018,11 @@ MonoBehaviour:
   - {fileID: 8926484042661614663}
   m_OutputSlots: []
   m_Label: 
-  m_Data: {fileID: 8926484042661614754}
+  m_Data: {fileID: 8926484042661614753}
   m_InputFlowSlot:
-  - link: []
+  - link:
+    - context: {fileID: 8926484042661614658}
+      slotIndex: 0
   m_OutputFlowSlot:
   - link: []
   blendMode: 0
@@ -2104,7 +2106,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots: []
   m_Disabled: 0
-  mode: 0
+  mode: 1
   axes: 4
 --- !u!114 &8926484042661614666
 MonoBehaviour:
@@ -2248,7 +2250,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614675}
-  m_UIPosition: {x: 1973, y: 1002}
+  m_UIPosition: {x: 1972, y: 1140}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -2257,11 +2259,9 @@ MonoBehaviour:
   - {fileID: 8926484042661614673}
   m_OutputSlots: []
   m_Label: 
-  m_Data: {fileID: 8926484042661614753}
+  m_Data: {fileID: 8926484042661614757}
   m_InputFlowSlot:
-  - link:
-    - context: {fileID: 8926484042661614658}
-      slotIndex: 0
+  - link: []
   m_OutputFlowSlot:
   - link: []
   blendMode: 1
@@ -4962,39 +4962,11 @@ MonoBehaviour:
   m_Owners:
   - {fileID: 8926484042661614609}
   - {fileID: 8926484042661614658}
-  - {fileID: 8926484042661614670}
-  dataType: 0
-  capacity: 50000
-  stripCapacity: 16
-  particlePerStripCount: 16
-  needsComputeBounds: 0
-  boundsMode: 0
-  m_Space: 0
---- !u!114 &8926484042661614754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d78581a96eae8bf4398c282eb0b098bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 114350483966674976}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  title: 
-  m_Owners:
   - {fileID: 8926484042661614662}
   dataType: 0
-  capacity: 128
-  stripCapacity: 1
-  particlePerStripCount: 128
+  capacity: 100000
+  stripCapacity: 16
+  particlePerStripCount: 16
   needsComputeBounds: 0
   boundsMode: 0
   m_Space: 0
@@ -5067,3 +5039,31 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661614635}
+--- !u!114 &8926484042661614757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78581a96eae8bf4398c282eb0b098bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 114350483966674976}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  title: 
+  m_Owners:
+  - {fileID: 8926484042661614670}
+  dataType: 0
+  capacity: 128
+  stripCapacity: 1
+  particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsMode: 0
+  m_Space: 0
