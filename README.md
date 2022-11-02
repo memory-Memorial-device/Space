@@ -27,6 +27,7 @@ Desktop: intel i7, ram 16GB, graphic card GTX 1060 이상
 필요 프로그램
 
 Unity ver: 2021.2.15f
+
 TouchDesigner : 2020 ver  이상
 
 사용방법
