@@ -21,6 +21,7 @@
 지원 모델
 
 Apple  : Apple Macbook Pro Serise(15inch or 16inch) 2017년 버전 이후
+
 Desktop: intel i7, ram 16GB, graphic card GTX 1060 이상
 
 필요 프로그램
